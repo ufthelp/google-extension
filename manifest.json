@@ -1,0 +1,12 @@
+{
+    "manifest_version":2,
+    "name" : "Craig Launcher",
+    "description": "Quick search craiglist",
+    "version": "1.0.0",
+    "icons":{"128":"resources/favicon.ico"},
+    "browser_action": {
+        "default_icon":"resources/favicon.ico",
+        "default_popup": "popup/popup.html"
+    },
+    "permissions":["activeTab"]
+}
